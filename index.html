@@ -382,18 +382,61 @@
                     </li>
                 </ul>
             </div>
+            <div class="foot-new subscribe">
+                <h3 class="join subscribe-head">Підпишіться на розсилку</h3>
+                <div class="formation">
+                    <input type="email" name="email-subs" class="subscribe-input" id="sub-email" placeholder="E-mail">
+                    <button type="submit" class="subscribe-button">Підписатися
+                        <svg class=" icons-color telegram">
+                            <use href="./images/sprites.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </div>
+            
     </footer>
     <div class="cover-darkness is-hidden" data-modal>
         <div class="modal">
-            <form class="#">
-                <label for="name">Ім'я</label>
-                <input type="text" name="user-name" id="name">
-                <label for="tel">Телефон</label>
-                <input type="tel" name="phone" id="tel">
-                <label for="email">Пошта</label>
-                <input type="email" name="email" id="email">
+            <p class="modal-header">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="form-modal">
+                <div class="lable-div">   
+                    <label for="name" class="lable">Ім'я</label>
+                    <input type="text" name="user-name" class="modal-inp" id="name" required>
+                    <svg class="input-icon-name foc">
+                        <use href="./images/sprites.svg#icon-name"></use>
+                    </svg>
+                </div>
+                <div class="lable-div">
+                    <label for="tel" class="lable">Телефон</label>
+                    <input type="tel" name="phone" class="modal-inp" id="tel" required>
+                    <svg class="input-icon-phone foc">
+                        <use href="./images/sprites.svg#icon-phone-cell"></use>
+                    </svg>
+                </div>
+                <div class="lable-div">
+                    <label for="email" class="lable">Пошта</label>
+                    <input type="email" name="email" class="modal-inp" id="email">
+                    <svg class="input-icon-mail foc">
+                        <use href="./images/sprites.svg#icon-email"></use>
+                    </svg>
+                </div>
+                    <label for="comment" class="lable">Комментар</label>
+                    <textarea class="modal-comm" name="comment" id="text-ar" placeholder="Введіть текст">
+                    </textarea>
+                
+                <div>
+                    <input type="checkbox" id="boolean-bird" name="agree"  checked class="check-mod hidden"/>
+                    <label for="boolean-bird" class="lable-check">
+                        Погоджуюся з розсилкою та приймаю <a href="#" class="terms-conditions">Умови договору</a>
+                    </label>
+                </div>
+                <div class="justify">
+                    <button type="submit" class="submit-button">Відправити</button>
+                </div>
             </form>
+                
+                    
             <button type="button" class="close-modal" data-modal-close>
                 <svg class="insta-icon close-icon-color">
                     <use href="./images/sprites.svg#icon-kross"></use>
