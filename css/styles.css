@@ -527,6 +527,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .card-im-anim {
   position: relative;
   overflow: hidden;
+  flex-grow: none;
 }
 .address {
 color: var(--color-white);
