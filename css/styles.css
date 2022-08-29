@@ -671,6 +671,8 @@ fill: rgba(255, 255, 255, 1);
   font-weight: 400;
   line-height: 1.71;
   color: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-modal .modal-inp:hover ,
 .form-modal .modal-inp:focus {
@@ -716,6 +718,8 @@ fill: rgba(255, 255, 255, 1);
   position: absolute;
   bottom: 26px;
   left: 15px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-icon-phone {
   width: 13px;
@@ -723,6 +727,8 @@ fill: rgba(255, 255, 255, 1);
   position: absolute;
   bottom: 26px;
   left: 15px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-icon-mail {
   width: 15px;
@@ -730,6 +736,8 @@ fill: rgba(255, 255, 255, 1);
   position: absolute;
   bottom: 26px;
   left: 15px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-comm {
   width: 100%;
